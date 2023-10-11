@@ -1,0 +1,31 @@
+.contact-content {
+    height: 100vh;
+    /* background-color: blue; */
+    display: block;
+    margin-block: 30px;
+    justify-content: space-between;
+    position: relative;
+    
+    }
+
+.contact-content:after{
+    content: "";
+    background-image: url(../pic\ 3.jpg);
+    position: absolute;
+    opacity: 0.2;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+ .form-box input, textarea{
+    border: 2px solid rgb(207, 124, 15);
+    border-radius: 10px;
+    padding: 5px;
+}
+::placeholder{
+    font-weight: bold;
+    font-family: var(--font-roboto);
+}

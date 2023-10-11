@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+:root {
+    --main-bg-color: rgb(207, 124, 15);
+    --other-bg-color:rgb(5, 5, 36);
+
+    --font-popins: 'Poppins', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+.font-p {
+    font-family: var(--font-popins);
+}
+
+.font-R {
+    font-family: var(--font-roboto);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+
+}
+
+.max-width-2 {
+    max-width: 60vw;
+
+}
+
+.m-auto {
+    margin: auto;
+}
+.m-y{
+    margin-block: 40px;
+}
+.btn {
+
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 3px 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 0 8px;
+    font-family: var(--font-roboto);
+    
+}
+
+.form-box input, textarea{
+    width: 44vw;
+    border: 2px solid orange;
+    margin: 7px 0px;
+    padding: 10px 5px;
+    font-size: 18px;
+    font-family: var(--font-roboto);
+}
+
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+
+
+}
+.aspect-ration{
+    aspect-ratio: 2/1;
+    
+    }
+.center{
+    text-align: center;
+}
